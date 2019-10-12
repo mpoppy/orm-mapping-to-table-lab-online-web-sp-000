@@ -24,8 +24,12 @@ class Student
       name TEXT,
       grade TEXT
     )
-    SQL 
+    SQL
   end
+
+  def self.drop_table
+  end
+  
 
 #save method to save attributes to the db
 
