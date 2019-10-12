@@ -25,11 +25,12 @@ class Student
       grade TEXT
     )
     SQL
+    DB[:conn].execute(sql)
   end
 
   def self.drop_table
   end
-  
+
 
 #save method to save attributes to the db
 
