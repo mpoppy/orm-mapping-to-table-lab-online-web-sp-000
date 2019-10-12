@@ -5,7 +5,7 @@ class Student
 
   @@all
 
-  def initialize (name, grade, id=nil)
+  def initialize (:name name, :grade grade, id=nil)
     @name = name
     @grade = grade
     @id = id
