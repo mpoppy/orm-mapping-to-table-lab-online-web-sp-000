@@ -31,6 +31,8 @@ class Student
     DB[:conn].execute(sql)
   end
 
+  
+
 
 #save method to save attributes to the db
   def save
