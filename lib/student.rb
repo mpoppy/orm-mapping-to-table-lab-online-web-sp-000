@@ -9,6 +9,8 @@ class Student
     @name = name
     @grade = grade
     @id = id
+
+    @@all << self
   end
 
   # Remember, you can access your database connection anywhere in this class
